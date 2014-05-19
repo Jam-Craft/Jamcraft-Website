@@ -1,5 +1,5 @@
 name: "JamCraft"
-refresh-rate: 2
+#refresh-rate: 2
 menu:
   left:
     - { title: "Mod List", url: "/mods.html", icon: "results"}
