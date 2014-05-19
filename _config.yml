@@ -1,6 +1,7 @@
 name: "JamCraft"
 #refresh-rate: 30
 menu:
-  - { title: "Jenkins (KJ4IPS)", url: "http://ci.haun.guru" }
+  - { title: "Jenkins (KJ4IPS)", url: "http://ci.haun.guru", icon: "loop"}
+  - { title: "TeamSpeak", url: "ts3server://teamspeak.jam-craft.net", icon: "microphone"}
   
 #pitchin: 7081700462
