@@ -1,10 +1,9 @@
 @import "settings";
 @import "foundation";
 
-@media #{$large-up} {
+@media #{$medium-up} {
   #homeHero {
     background-image: url('/img/homehero.png');
-    background-position: center -200px;
     background-size: cover;
     border: none;
     min-height: 525px;
