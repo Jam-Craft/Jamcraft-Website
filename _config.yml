@@ -1,0 +1,6 @@
+name: "JamCraft"
+#refresh-rate: 30
+menu:
+  - { title: "Jenkins (KJ4IPS)", url: "http://ci.haun.guru" }
+  
+#pitchin: 7081700462

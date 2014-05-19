@@ -1,1 +1,44 @@
-<h1>Under Construction</h1>
+---
+---
+<html>
+	<!-- Last Updated: {{ site.time }} -->
+	<head>
+		<title>{{ site.name }}</title>
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<link rel="stylesheet" href="/css/cover.css">
+		{% if site.refresh-rate %}
+		<meta http-equiv="refresh" content="{{ site.refresh-rate }}" />
+		{% endif %}
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	</head>
+	<body>
+		<div id="centerwarp">
+			<div id="centercontent">
+				<h1>{{ site.name }}</h1>
+				<p>
+					<strong>Site Coming Soon</strong>
+					<hr>
+					{% for menuLink in site.menu %}
+					<a href="{{ menuLink.url }}">{{ menuLink.title }} &gt;</a>
+					{% endfor %}
+					<br/>
+					<br/>
+					<br/>
+					{% if site.pitchin %}
+					<div id="pitchin">
+						<a href="http://www.adobe.com/go/getflashplayer"> <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" /> </a>
+					</div>
+					<script type="text/javascript">
+						swfobject.embedSWF("http://pitchinbox.com/widget/widget.swf?id={{ site.pitchin }}", "pitchin", "285", "200", "9.0.0", false, {}, {}, {});
+					</script>
+					{% endif %}
+				</p>
+			</div>
+		</div>
+		<footer>
+			&copy; {{ site.name }} 2014
+		</footer>
+	</body>
+</html>

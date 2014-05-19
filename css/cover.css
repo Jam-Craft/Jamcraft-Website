@@ -1,0 +1,38 @@
+html, body {
+	height: 100% !IMPORTANT;
+	background: black;
+	color: white;
+}
+
+footer {
+	bottom: 5px;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+}
+
+#centerwarp {
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+}
+
+#centercontent {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#background {
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	padding: 0 10px;
+}
