@@ -7822,3 +7822,8 @@ th.hide-for-touch {
   text-align: center;
   margin-top: 20px;
 }
+
+/* line 29, ../_scss/app.scss */
+table {
+  width: 100%;
+}

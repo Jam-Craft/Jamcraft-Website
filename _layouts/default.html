@@ -8,6 +8,9 @@
 		<title>{{ site.name }}</title>
 		<link rel="stylesheet" href="/css/app.css" />
 		<link rel="stylesheet" href="/css/foundation-icons.css" />
+		{% if site.refresh-rate %}
+		<meta http-equiv="refresh" content="{{ site.refresh-rate }}">
+		{% endif %}
 		<script src="/vendor/modernizr/modernizr.js"></script>
 	</head>
 	<body>
@@ -23,8 +26,15 @@
 				</ul>
 
 				<section class="top-bar-section">
+					<ul class="left">
+						{% for menuLink in site.menu.left %}
+						<li>
+							<a href="{{ menuLink.url }}">{% if menuLink.icon %}<i class="fi-{{ menuLink.icon }}"></i> {% endif %}{{ menuLink.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
 					<ul class="right">
-						{% for menuLink in site.menu %}
+						{% for menuLink in site.menu.right %}
 						<li>
 							<a href="{{ menuLink.url }}">{% if menuLink.icon %}<i class="fi-{{ menuLink.icon }}"></i> {% endif %}{{ menuLink.title }}</a>
 						</li>
