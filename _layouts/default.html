@@ -11,26 +11,28 @@
 		<script src="vendor/modernizr/modernizr.js"></script>
 	</head>
 	<body>
-		<nav class="top-bar" data-topbar>
-			<ul class="title-area">
-				<li class="name">
-					<h1><a href="/">{{ site.name }}</a></h1>
-				</li>
-				<li class="toggle-topbar menu-icon">
-					<a href="#"><span></span></a>
-				</li>
-			</ul>
-
-			<section class="top-bar-section">
-				<ul class="right">
-					{% for menuLink in site.menu %}
-					<li>
-						<a href="{{ menuLink.url }}">{% if menuLink.icon %}<i class="fi-{{ menuLink.icon }}"></i>  {% endif %}{{ menuLink.title }}</a>
+		<div class="sticky">
+			<nav class="top-bar" data-topbar>
+				<ul class="title-area">
+					<li class="name">
+						<h1><a href="/">{{ site.name }}</a></h1>
 					</li>
-					{% endfor %}
+					<li class="toggle-topbar menu-icon">
+						<a href="#"><span></span></a>
+					</li>
 				</ul>
-			</section>
-		</nav>
+
+				<section class="top-bar-section">
+					<ul class="right">
+						{% for menuLink in site.menu %}
+						<li>
+							<a href="{{ menuLink.url }}">{% if menuLink.icon %}<i class="fi-{{ menuLink.icon }}"></i> {% endif %}{{ menuLink.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+				</section>
+			</nav>
+		</div>
 		{{ content }}
 		<script src="vendor/jquery/dist/jquery.min.js"></script>
 		<script src="vendor/foundation/js/foundation.min.js"></script>

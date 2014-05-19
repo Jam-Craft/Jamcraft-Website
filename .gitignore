@@ -1,3 +1,5 @@
 _site/
 .project
 .sass-cache
+css/app.css
+Thumbs.db

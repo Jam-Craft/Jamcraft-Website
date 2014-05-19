@@ -4,12 +4,17 @@
 @media #{$large-up} {
   #homeHero {
     background-image: url('/img/homehero.png');
+    background-position: center -200px;
     background-size: cover;
     border: none;
+    min-height: 525px;
   }
   #homeHero * {
     color: white;
     text-shadow: 2px 2px 10px rgba(150, 150, 150, 1);
+  }
+  #homeHero > div:first-child {
+    margin-top: 450px;
   }
 }
 #homeHero *.label {
