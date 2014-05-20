@@ -5,7 +5,7 @@ var statusip {% if site.server-ip %} = "{{ site.server-ip }}"{% endif %};
 
 function updateStatus() {
 	var xhr = new XMLHttpRequest();
-	xhr.open("GET", "http://minecraft-api.com/v1/get/?server=" + (statusip?statusip:undefined), true);
+	xhr.open("GET", "http://minecraft-api.com/v1/get/?server=" + statusip, true);
 	xhr.onreadystatechange = function() {
 		if (xhr.readyState == 4) {
 			data = JSON.parse(xhr.responseText);

@@ -7801,7 +7801,7 @@ th.hide-for-touch {
   }
 
   /* line 11, ../_scss/app.scss */
-  #homeHero * {
+  .hero *, #homeHero * {
     color: white;
     text-shadow: 2px 2px 10px #969696;
   }
@@ -7812,7 +7812,7 @@ th.hide-for-touch {
   }
 }
 /* line 19, ../_scss/app.scss */
-#homeHero *.label {
+#homeHero *.label, .hero *.label {
   text-shadow: none;
   top: -3px;
 }

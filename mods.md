@@ -1,7 +1,8 @@
 ---
 layout: page
+title: Our Mods
+subtitle: Whaaaaaaaaaa
 ---
-#Our Mods
 
 | Mod       | Author        | Description          | URL                           |
 |-----------|---------------|----------------------|-------------------------------|
