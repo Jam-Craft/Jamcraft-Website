@@ -1,8 +1,9 @@
 name: "JamCraft"
 #refresh-rate: 2
+#server-ip: "mrcomputerghost.no-ip.org"
 menu:
   left:
-    - { title: "Mod List", url: "/mods.html", icon: "results"}
+#    - { title: "Mod List", url: "/mods.html", icon: "results"}
   right:
     - { title: "Jenkins (KJ4IPS)", url: "http://ci.haun.guru", icon: "loop"}
     - { title: "TeamSpeak", url: "ts3server://teamspeak.jam-craft.net", icon: "microphone"}

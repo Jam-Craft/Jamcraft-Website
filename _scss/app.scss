@@ -29,3 +29,13 @@
 table {
   width: 100%
 }
+
+.status-icon {
+  font-size: 5em;
+}
+.status-icon.danger {
+  color: $alert-color;
+}
+.status-icon.success {
+  color: $success-color;
+}

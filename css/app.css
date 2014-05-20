@@ -7827,3 +7827,18 @@ th.hide-for-touch {
 table {
   width: 100%;
 }
+
+/* line 33, ../_scss/app.scss */
+.status-icon {
+  font-size: 5em;
+}
+
+/* line 36, ../_scss/app.scss */
+.status-icon.danger {
+  color: #f04124;
+}
+
+/* line 39, ../_scss/app.scss */
+.status-icon.success {
+  color: #43ac6a;
+}
