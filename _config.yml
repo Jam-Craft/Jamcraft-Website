@@ -1,4 +1,5 @@
 name: "JamCraft"
+markdown: kramdown
 #refresh-rate: 2
 #server-ip: "mrcomputerghost.no-ip.org"
 menu:
