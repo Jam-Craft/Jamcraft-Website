@@ -6,6 +6,7 @@
     background-image: url('/img/homehero.png');
     background-size: cover;
     border: none;
+    background-color: #000;
     min-height: 525px;
   }
   .hero *, #homeHero * {
@@ -30,6 +31,10 @@ table {
   width: 100%
 }
 
+#staus td {
+  height: 50px;
+  text-overflow: ellipsis;
+}
 .status-icon {
   font-size: 5em;
 }
@@ -38,4 +43,19 @@ table {
 }
 .status-icon.success {
   color: $success-color;
+}
+#creeper-thanks {
+  background-color: $success-color;
+  margin-top: -20px;
+  border: none;
+}
+@media #{$medium-up} {
+  #creeper-thanks {
+    background: url('/img/ch_logo.png') $success-color no-repeat center;
+    padding: 1.40rem 1.25rem;
+  }
+}
+#creeper-thanks p {
+  color: white;
+  margin-bottom: 0px;
 }

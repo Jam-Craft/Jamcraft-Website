@@ -7797,48 +7797,75 @@ th.hide-for-touch {
     background-image: url("/img/homehero.png");
     background-size: cover;
     border: none;
+    background-color: #000;
     min-height: 525px;
   }
 
-  /* line 11, ../_scss/app.scss */
+  /* line 12, ../_scss/app.scss */
   .hero *, #homeHero * {
     color: white;
     text-shadow: 2px 2px 10px #969696;
   }
 
-  /* line 15, ../_scss/app.scss */
+  /* line 16, ../_scss/app.scss */
   #homeHero > div:first-child {
     margin-top: 450px;
   }
 }
-/* line 19, ../_scss/app.scss */
+/* line 20, ../_scss/app.scss */
 #homeHero *.label, .hero *.label {
   text-shadow: none;
   top: -3px;
 }
 
-/* line 24, ../_scss/app.scss */
+/* line 25, ../_scss/app.scss */
 #error {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 29, ../_scss/app.scss */
+/* line 30, ../_scss/app.scss */
 table {
   width: 100%;
 }
 
-/* line 33, ../_scss/app.scss */
+/* line 34, ../_scss/app.scss */
+#staus td {
+  height: 50px;
+  text-overflow: ellipsis;
+}
+
+/* line 38, ../_scss/app.scss */
 .status-icon {
   font-size: 5em;
 }
 
-/* line 36, ../_scss/app.scss */
+/* line 41, ../_scss/app.scss */
 .status-icon.danger {
   color: #f04124;
 }
 
-/* line 39, ../_scss/app.scss */
+/* line 44, ../_scss/app.scss */
 .status-icon.success {
   color: #43ac6a;
+}
+
+/* line 47, ../_scss/app.scss */
+#creeper-thanks {
+  background-color: #43ac6a;
+  margin-top: -20px;
+  border: none;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 53, ../_scss/app.scss */
+  #creeper-thanks {
+    background: url("/img/ch_logo.png") #43ac6a no-repeat center;
+    padding: 1.40rem 1.25rem;
+  }
+}
+/* line 58, ../_scss/app.scss */
+#creeper-thanks p {
+  color: white;
+  margin-bottom: 0px;
 }

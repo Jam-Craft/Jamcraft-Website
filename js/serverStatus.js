@@ -1,7 +1,7 @@
 ---
 ---
 
-var statusip {% if site.server-ip %} = "{{ site.server-ip }}"{% endif %};
+var statusip{% if site.server-ip %} = "{{ site.server-ip }}"{% endif %};
 
 function updateStatus() {
 	var xhr = new XMLHttpRequest();
