@@ -7,6 +7,6 @@ menu:
 #    - { title: "Mod List", url: "/mods.html", icon: "results"}
   right:
     - { title: "Jenkins (KJ4IPS)", url: "http://ci.haun.guru", icon: "loop"}
-    - { title: "TeamSpeak", url: "ts3server://teamspeak.jam-craft.net", icon: "microphone"}
+    - { title: "TeamSpeak", url: "ts3server://jam-craft.net", icon: "microphone"}
   
 #pitchin: 7081700462
