@@ -1,7 +1,7 @@
 name: "JamCraft"
 markdown: kramdown
 #refresh-rate: 2
-server-ip: "ch.jamcraft.net"
+server-ip: "ch.jam-craft.net"
 menu:
   left:
 #    - { title: "Mod List", url: "/mods.html", icon: "results"}
