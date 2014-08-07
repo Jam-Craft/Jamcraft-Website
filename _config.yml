@@ -6,7 +6,7 @@ menu:
   left:
 #    - { title: "Mod List", url: "/mods.html", icon: "results"}
   right:
-    - { title: "Jenkins (KJ4IPS)", url: "http://ci.haun.guru", icon: "loop"}
+    - { title: "Build Server", url: "http://ci.jam-craft.net", icon: "loop"}
     - { title: "TeamSpeak", url: "ts3server://teamspeak.jam-craft.net", icon: "microphone"}
   
 #pitchin: 7081700462
